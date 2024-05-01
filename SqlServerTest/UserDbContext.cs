@@ -20,7 +20,7 @@ namespace SqlServerTest ;
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Server=win2016-770ir.hostnegar.com\\MSSQLSERVER2022;Database=RaterDataBase;User ID=alireza;Password=15iX#6to0;TrustServerCertificate=True");
+                optionsBuilder.UseSqlServer("Connection string");
             }
         }
 
